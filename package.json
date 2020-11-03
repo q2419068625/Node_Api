@@ -1,0 +1,31 @@
+{
+    "name": "mixiuapi",
+    "version": "1.0.0",
+    "description": "interface api",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "NODE_ENV=production node app",
+        "dev": "nodemon app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/q2419068625/Node_Api.git"
+    },
+    "keywords": [
+        "interface",
+        "api",
+        "express",
+        "router"
+    ],
+    "author": "大补bu",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/q2419068625/Node_Api/issues"
+    },
+    "homepage": "https://github.com/q2419068625/Node_Api#readme",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1"
+    }
+}
